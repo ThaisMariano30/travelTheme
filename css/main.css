@@ -1,0 +1,285 @@
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    a {
+        color: inherit; 
+    }
+    a:hover {
+        color: inherit;
+        text-decoration: underline;
+    }
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+ 
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    } 
+    img{width: 100%;}
+
+    
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      
+      section{
+        margin: 30px auto;
+      }
+      p{max-width: 650px;}
+      .navbar-dark .navbar-toggler{
+        border:0;
+      } 
+      .carousel,.carousel > img { 
+        height: 101vh;  
+      }
+      .carousel-caption {
+        position: absolute; 
+        bottom: 55%;
+      } 
+     
+      @media(max-width:768px){
+      .carousel-caption h1 {
+          font-size: 2rem;
+      }
+      .carousel-caption p {
+          font-size:1.1rem;
+          line-height: 1.3;
+      }
+      }
+   
+      /* MODULE QUOTE */
+      @media(min-width:520px) and (max-width:1200px){
+
+      .quote{
+        display: none!important;
+      }
+
+      }
+      .quote {
+        align-items: center;
+        width: 100%;
+        color:white;
+        background: hsl(211deg 100% 50%);
+        border: hsl(211deg 100% 50%);
+
+        /* background: #3c00cc;
+        border:#3c00cc; */
+        
+        padding: 15px;
+        z-index: 998;
+        bottom: 0vh;
+        position: relative; 
+      }
+      .quote img {
+        width: 25px;
+    }
+      .quote button{  
+          border-radius: 0;
+          height: 100%;
+          padding: 5px 91px;
+          color: white;
+          border: 0;
+          margin: 20px 14px;
+          width: 100%;
+          border-radius: 6px; 
+      }
+      button.btn.btn-success {
+          background: #44d47e;
+          text-transform: uppercase;
+      }
+      button.btn.btn-secondary {
+        background: #104da2;
+          text-transform: uppercase;
+      }
+      div#inputsHide > div:last-child img {
+        height: 20px;
+        width: 20px;
+     }
+     .quote #controls a {
+        background: red;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+      div#inputsHide > div:last-child{
+        position: relative;
+        width: 146px;
+        padding: 0;
+        margin: 0;
+      }
+      .quote input{min-width: 100%;}
+
+      @media(max-width:768px){
+        .quote { 
+          flex-wrap:wrap; 
+          position: absolute;
+          bottom: 0;  
+          padding-bottom: 20px;
+          /* border-radius: 19px 23px 0px 0px; */
+        }
+        .quote button { 
+            padding: 5px 0; 
+            height: 70px 
+        }
+        div#inputsHide > div:last-child {
+            position: relative; 
+            width: 100%;
+        }
+        
+        .carousel-caption { 
+        bottom: 50%;
+        }
+      }
+      @media(min-width:768px){
+        
+        div#inputsHide{
+          display: flex;
+        }
+        .quote {
+          top: 80vh;
+
+          display: flex; 
+          white-space: nowrap; 
+          border-radius: 5px;
+           
+        }
+        .quote button {
+             height: 100%;
+            padding: 4px;
+             margin: 5px auto;
+            position: absolute;
+        }
+        .quote > div[hidden] {
+          display: flex !important; 
+        }
+        #quote .doble-box:first-child{
+          display: none !important;
+        }
+      }
+      
+      .quote .form-group.row {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+
+    }
+      .quote label {
+            margin: 0 0px;
+            padding: 3px 4px;
+            color: #fff;
+            white-space: nowrap;
+            text-transform: uppercase;
+            font-size: .6rem;
+      }
+
+       section.features {
+        position: relative;
+      }
+      div.features {   
+        color: white;
+        background-color: #007bff;
+        max-width: 497px;
+      } 
+      .features .card.card-body {
+        background: transparent;
+        border: 0;
+      }
+      .features button.btn.btn-primary {
+        box-shadow: 0px 3px 0px #0072ff;
+        width: 100%;
+        text-align: left;
+        padding: 18px 20px;
+      }
+      @media(min-width: 768px){ 
+        
+      section.features { 
+        position: relative;
+      }
+      div.features {
+        position: absolute;
+        top: 0;
+        padding: 40px;
+        right: 12%;
+      }  
+    }
+      .features img.svg {
+        width: 30px;
+        height: 30px;
+         
+      }
+      .features ul li {
+       border: 0;
+       background: transparent;
+      }
+      /* MODULE FEATURES  */
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      } 
+      @media (max-width: 768px) {
+
+    
+      }
+      img{width: 100%;}
+
+      svg {
+          width: 23px;
+          height: 23px;
+          fill:#fff;
+      }
+
+      .doble-box{
+        display: flex;
+        max-width: 440px;}
+        .doble-box >  div{ 
+        width: 50%;
+        }
+        #quote .doble-box:first-child {
+          margin: 15px auto 30px;
+      }
+        .doble-box > div > div {
+        width: 100%;
+        }
+
+        .main-color{
+        background: #413fa7;
+        border-color: #413fa7;
+        color:white;
+
+        }
+
+        .white-color{
+            color: white;
+        }
+        .carousel-caption button {
+        margin: 15px 0;
+        display: flex;
+        align-items: center;
+        font-size:12px;
+        }
+        .carousel-caption svg {
+        margin: 15px 0;
+
+        }
+        .carousel-caption svg {
+        margin: 0 5px 2px 0;
+        padding: 0 2px;
+        }

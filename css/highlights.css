@@ -1,0 +1,40 @@
+.highlights{
+    padding: 10%;
+    position: absolute;
+    bottom: 10%;
+}
+
+.highlights.white-color p {
+    font-size: 14px;
+    max-width: 80%;
+    line-height: 1.2;
+    opacity: 0.7;
+}
+.highlights.white-color h5 {
+    font-size: 15px;
+  
+    opacity: 0.9;
+}
+button:focus { 
+    outline: none;
+}
+.highlights img{
+    width: 20px;
+}
+@media (min-width: 768px) {
+
+    .highlights {
+        padding: 5% 14%;
+        bottom:30%;
+    }
+    .highlights  h5{
+        white-space: nowrap; 
+        
+    }
+    .highlights  p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+  
+    
+}
